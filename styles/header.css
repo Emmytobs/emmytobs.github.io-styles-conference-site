@@ -1,0 +1,103 @@
+/* #293F50 --> Background-color */
+/* #496c75 --> Hover color of menu items */
+
+header {
+    width: 100%;
+    background-color: #293F50;
+    padding: 0px 0px 100px 0px;
+}
+
+nav {
+    width: 100%;
+    flex: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 130px;
+}
+nav .logo-container {
+    border-top: 5px solid #496c75;
+    height: 100%;
+}
+
+nav .logo-container h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 2.5em;
+}
+
+nav .logo-container a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .menu-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav .menu-container > * {
+    text-align: right;
+}
+
+nav .menu-container p {
+    font-size: 1.3em;
+    color: #496c75;
+}
+
+nav .menu-container li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+nav .menu-container a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+nav .menu-container a:hover {
+    color: #496c75;
+}
+
+header .about-conference-container {
+    width: 90%;
+    text-align: center;
+    margin: 25px auto 0px;
+}
+
+header .about-conference-container h2 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #496c75;
+}
+
+header .about-conference-container p {
+    color: #fff;
+    font-size: 1.3em;
+    line-height: 12px;
+}
+
+
+header .about-conference-container button {
+    border: 1px solid #fff;
+    padding: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    font-size: 1.4em;
+}
+
+header .about-conference-container button:hover {
+    border: none;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #496c75;
+}
