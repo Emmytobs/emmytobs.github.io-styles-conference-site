@@ -1,0 +1,46 @@
+footer {
+    width: 100%;
+    background-color: #293F50;
+    padding: 20px 0px;;
+}
+
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section .logo {
+    /* flex: 1 0 auto; */
+    flex: 1;
+}
+
+section .footer-menu {
+    flex: 2;
+}
+
+section .logo {
+    width: 100%;
+    text-align: left;
+    color: #496c75;
+}
+
+section ul {
+    width: 100%;
+    text-align: right;
+}
+
+section ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+section li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section li a:hover {
+    color: #496c75;
+}
