@@ -1,0 +1,52 @@
+/* Mid-section styles */
+article {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+}
+
+article section {
+    padding: 8px 12px;
+}
+
+article section > * {
+    color: #888;
+    
+}
+
+section p.text {
+    font-size: 0.9em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.card a {
+    color: #888;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #888888bb;
+}
+
+.card .card-image {
+    width: 100%;
+    height: 200px;
+}
+
+.card-image img {
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card .card-title {
+    margin: 15px 0px 0px;
+}  
+
+.card .card-text {
+    margin: 20px 0px 0px;
+}
