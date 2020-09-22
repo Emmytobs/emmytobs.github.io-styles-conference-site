@@ -1,5 +1,14 @@
+
+/* This CSS file contains global stying for all the pages  */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+:root {
+    --main-trim-color: #648880;
+    --main-bg-color: #293F50;
 }
 
 html, body {
@@ -7,12 +16,42 @@ html, body {
     margin: 0;
     padding: 0;
     background: #fff;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
-/* Container Styles */
+/* Styling for containers */
 .container {
     width: 70%;
-    padding: 6px 12px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* section.section-container {
+
+} */
+
+/* Styling for the page title container */
+section.page-title-container {
+    background: linear-gradient(to right, #A5D4B2, #C3DFBE,#D2E4C4,#F1EFD1);
+}
+
+section.page-title-container .container {
+    width: 100%;
+    text-align: center;
+    padding: 24px 0;
+}
+
+section.page-title-container .container > h1 {
+    color: var(--main-trim-color);
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 44px;
+}
+
+section.page-title-container .container > p {
+    font-size: 21px;
+    margin: 5px 0px;
+    color: #888888;
+    font-weight: 300;
 }

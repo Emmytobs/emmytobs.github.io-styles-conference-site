@@ -1,10 +1,7 @@
-/* #293F50 --> Background-color */
-/* #496c75 --> Hover color of menu items */
-
 header {
     width: 100%;
-    background-color: #293F50;
-    padding: 0px 0px 100px 0px;
+    background-color: var(--main-bg-color);
+    padding-bottom: 60px;
 }
 
 nav {
@@ -17,15 +14,15 @@ nav {
     height: 130px;
 }
 nav .logo-container {
-    border-top: 5px solid #496c75;
+    border-top: 5px solid var(--main-trim-color);;
     height: 100%;
 }
 
 nav .logo-container h1 {
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 300;
-    font-size: 2.5em;
+    /* word-spacing: 2px; */
+    font-weight: 100;
+    font-size: 2.6em;
 }
 
 nav .logo-container a {
@@ -47,7 +44,7 @@ nav .menu-container > * {
 
 nav .menu-container p {
     font-size: 1.3em;
-    color: #496c75;
+    color: var(--main-trim-color);;
 }
 
 nav .menu-container li {
@@ -63,41 +60,55 @@ nav .menu-container a {
 }
 
 nav .menu-container a:hover {
-    color: #496c75;
+    color: var(--main-trim-color);;
 }
 
-header .about-conference-container {
+.about-conference-container {
+    width: 100%;
+    background-color: var(--main-bg-color);;
+    padding: 10px 0 50px;
+}
+
+.about-conference-container .content {
     width: 90%;
     text-align: center;
-    margin: 25px auto 0px;
+    margin: 0px auto;
 }
 
-header .about-conference-container h2 {
-    font-size: 2em;
+.about-conference-container .content h2 {
+    font-size: 2.5em;
+    margin: 10px 0px 5px;
     font-weight: 300;
     color: #496c75;
 }
 
-header .about-conference-container p {
+.about-conference-container .content p {
     color: #fff;
-    font-size: 1.3em;
-    line-height: 12px;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 14px;
 }
 
 
-header .about-conference-container button {
+.about-conference-container .content button {
     border: 1px solid #fff;
-    padding: 18px;
+    padding: 25px 30px;
     border-radius: 5px;
     cursor: pointer;
     background: transparent;
     color: #fff;
-    font-size: 1.4em;
+    margin-top: 10px;
+    font-size: 1em;
+    text-transform: uppercase;
 }
 
-header .about-conference-container button:hover {
+.about-conference-container .content button:hover {
     border: none;
     border: 1px solid #fff;
     background: #fff;
-    color: #496c75;
+    color: var(--main-trim-color);;
+}
+
+.container {
+
 }

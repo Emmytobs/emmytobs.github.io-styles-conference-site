@@ -1,0 +1,88 @@
+article p {
+    font-size: 16px;
+    color: #888888;
+    line-height: 22px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--main-trim-color);    
+}
+
+h5 {
+    color: #a9b2b9;
+    font-size: 14px;
+}
+
+
+.speakers {
+    margin-top: 60px;
+}
+
+
+.speaker {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.speaker-info {
+    flex: 2;
+}
+
+.speaker-info > div {
+    margin-bottom: 20px;
+}
+
+.speaker-info .name h2 {
+    margin: 0;
+    line-height: 44px;
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--main-trim-color);
+}
+
+.speaker-info .name h5 {
+    margin: 0;
+    line-height: 22px;
+    color: #a9b2b9;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.speaker-contact-container{
+    flex: 1; 
+}
+
+.speaker-contact-container {
+
+}
+
+.speaker-contact {
+    position: relative;
+    width: 80%;
+    margin: 80px auto;
+    border: 1px solid #dbd9d9;
+    border-radius: 5px;
+    color: #888888;
+}
+
+.speaker-contact div {
+    width: 130px;
+    height: 130px;
+    margin: -30% auto 30px;
+}
+
+.speaker-contact img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.speaker-contact > p {
+    width: 100%;
+    text-align: center;
+    line-height: 10px;
+}
