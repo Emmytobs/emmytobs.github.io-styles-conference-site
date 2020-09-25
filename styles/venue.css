@@ -1,0 +1,29 @@
+section .physical-address {
+    text-align: left;
+}
+
+article section {
+    margin: 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.physical-address h1 {
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 32px;
+    color: var(--main-trim-color);
+    font-weight: 300;
+}
+
+.physical-address h3 {
+    margin: 0;
+    line-height: 22px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-address {
+    margin-top: 15px;
+}

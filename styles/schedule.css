@@ -1,0 +1,57 @@
+table {
+    color: #888888;
+    font-weight: 300;
+}
+
+thead th:first-child {
+    color: var(--main-trim-color);
+    font-weight: 300;
+}
+
+thead th:first-child,
+tbody td:first-child {
+    padding: 0px 40px 0px 0px;
+    font-size: 1em;
+    text-align: right;
+}
+
+
+td {
+    padding: 20px 0px;
+}
+
+td a {
+    text-decoration: none;
+    color: inherit;
+}
+
+td h3 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 300;
+    color: var(--main-trim-color)
+}
+
+td p {
+    margin: 0;
+    font-size: 1em;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+.table-border-bottom {
+    border-bottom: 1px solid #a9b2b9;
+}
+
+.event-section {
+    color: #a9b2b9;
+}
+
+.event-session:hover p {
+    color: #a9b2b9;
+}
+
+.date-header {
+    text-align: left;
+}

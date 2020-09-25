@@ -20,6 +20,16 @@ html, body {
     font-weight: 300;
 }
 
+a.primary-link {
+    font-size: 1em;
+    text-decoration: none;
+    border-bottom: .5px solid #a9b2b9;
+    color: var(--main-trim-color);
+}
+
+a.primary-link:hover {
+    opacity: 0.8;
+}
 /* Styling for containers */
 .container {
     width: 70%;

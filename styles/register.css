@@ -1,0 +1,88 @@
+article {
+    display: flex;
+    flex-direction: row;
+    color: #888888;
+    margin: 100px 0;
+}
+
+section.purchase-info {
+    flex: 2;
+}
+
+section.purchase-info h2 {
+    color: var(--main-trim-color);
+    font-weight: 300;
+}
+
+section.purchase-info p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 20px;
+}
+
+
+section > h5 {
+    text-transform: uppercase;
+}
+
+.why-attend {
+    margin-top: 30px;
+}
+
+.why-attend > h3 {
+    color: var(--main-trim-color);
+    font-weight: 300;
+}
+
+.why-attend ul li {
+    list-style-type: square;
+    line-height: 25px;
+}
+
+section.purchase-form {
+    flex: 1;
+}
+
+form {
+    width: 100%;
+}
+
+form div {
+    margin: 15px 0;
+}
+
+form div > * {
+    display: block;
+}
+
+form label {
+    line-height: 40px;
+    color: var(--main-trim-color);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+form div input::placeholder {
+    color: #888;
+}
+
+form div label + * {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #888;
+    color: #888;
+    font-size: 16px;
+    width: 100%;
+}
+
+button {
+    padding: 12px 35px;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+    background: var(--main-trim-color);
+}
