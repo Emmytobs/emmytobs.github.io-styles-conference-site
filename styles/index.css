@@ -116,6 +116,10 @@ section p.text {
         padding: 15px 20px;
     }
 
+    article.container {
+        width: 50%;
+    }
+
     article {
         display: flex;
         flex-direction: column;
