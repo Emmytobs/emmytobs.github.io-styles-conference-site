@@ -44,3 +44,33 @@ section .logo {
 .footer-menu li a:hover {
     color: #496c75;
 }
+
+@media screen and (max-width: 1000px) {
+    footer section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section > * {
+        flex: 1;
+    }
+
+    section > .logo {
+        order: 2;
+        text-align: center;
+    }
+
+    section > .footer-menu {
+        order: 1;
+    }
+
+    .footer-menu ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

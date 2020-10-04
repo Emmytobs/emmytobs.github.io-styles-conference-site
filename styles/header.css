@@ -63,48 +63,19 @@ nav .menu-container a:hover {
     color: var(--main-trim-color);;
 }
 
-.about-conference-container {
-    width: 100%;
-    background-color: var(--main-bg-color);;
-    padding: 10px 0 50px;
-}
+@media screen and (max-width: 1000px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.about-conference-container .content {
-    width: 90%;
-    text-align: center;
-    margin: 0px auto;
-}
+    .menu-container div > p {
+        display: none;
+    }
 
-.about-conference-container .content h2 {
-    font-size: 2.5em;
-    margin: 10px 0px 5px;
-    font-weight: 300;
-    color: #496c75;
-}
-
-.about-conference-container .content p {
-    color: #fff;
-    font-size: 1.5em;
-    font-weight: 100;
-    line-height: 14px;
-}
-
-
-.about-conference-container .content button {
-    border: 1px solid #fff;
-    padding: 25px 30px;
-    border-radius: 5px;
-    cursor: pointer;
-    background: transparent;
-    color: #fff;
-    margin-top: 10px;
-    font-size: 1em;
-    text-transform: uppercase;
-}
-
-.about-conference-container .content button:hover {
-    border: none;
-    border: 1px solid #fff;
-    background: #fff;
-    color: var(--main-trim-color);;
+    nav .logo-container h1 {
+        font-size: 2em;
+    }
 }

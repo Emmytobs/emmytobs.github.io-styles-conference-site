@@ -37,6 +37,12 @@ a.primary-link:hover {
     margin-right: auto;
 }
 
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 95%;
+    }
+}
+
 /* section.section-container {
 
 } */
