@@ -74,6 +74,11 @@ form div label + * {
     font-size: 16px;
     width: 100%;
 }
+form div label + *:focus {
+    border: 1px solid var(--main-trim-color);
+    box-shadow: 2px 2px 5px 1px #64888086, -2px -2px 5px 1px #64888086;
+    outline: none;
+}
 
 button {
     padding: 12px 35px;
@@ -85,4 +90,23 @@ button {
     cursor: pointer;
     margin: 15px 0;
     background: var(--main-trim-color);
+}
+
+@media screen and (max-width: 900px) {
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+    section.purchase-info,
+    section .purchase-form {
+        padding: 0 50px;
+        flex: 1
+    }
+
+    form > div {
+        padding: 0 50px;
+    }
+    form > button {
+        margin-left: 50px
+    }
 }
