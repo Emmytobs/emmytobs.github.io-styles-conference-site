@@ -42,9 +42,17 @@ nav .menu-container > * {
     text-align: right;
 }
 
-nav .menu-container p {
+nav p.event-date {
     font-size: 1.3em;
-    color: var(--main-trim-color);;
+    color: var(--main-trim-color);
+}
+
+nav > p.small-screens {
+    display: none;
+}
+
+.menu-container p.big-screens {
+    display: block;
 }
 
 nav .menu-container li {
@@ -67,15 +75,37 @@ nav .menu-container a:hover {
     nav {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
         align-items: center;
+        height: auto;
+    }
+
+    nav .logo {
+        margin-bottom: 0px;
     }
 
     .menu-container div > p {
         display: none;
     }
 
+    nav p.small-screens {
+        display: block;
+    }
+
+    .menu-container p.big-screens {
+        display: none;
+    }
+    
+    .menu-container div,
+    .menu-container ul {
+        width: 100%;
+    }
+
+    .menu-container ul {
+        padding: 0;
+        margin: 0;
+    }
+
     nav .logo-container h1 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 }
