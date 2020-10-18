@@ -71,3 +71,13 @@ section.page-title-container .container > p {
     color: #888888;
     font-weight: 300;
 }
+
+@media screen and (max-width: 1000px) {
+    section.page-title-container .container {
+        padding: 24px 44px;
+    }
+
+    section.page-title-container .container > h1 {
+        margin: 10px 0;
+    }
+}
